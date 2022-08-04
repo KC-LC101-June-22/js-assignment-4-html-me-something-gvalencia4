@@ -1,1 +1,17 @@
 /* Write your CSS here! */
+
+/* Classes */
+.funParagraph {
+    color: green;
+}
+
+/* Elements */
+body {
+    margin: 8px;
+    display: block;
+}
+
+/* IDs */
+#mainHeading {
+    color: red;
+}

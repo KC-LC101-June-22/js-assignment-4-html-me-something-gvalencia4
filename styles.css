@@ -1,24 +1,34 @@
 /* Write your CSS here! */
 
 /* Classes */
+.flex-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.thumbnail {
+    top: -50px;
+    left: -35px;
+    display: block;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    transform: scale(1.2);
+    /* flex-grow: 2; */
+}
+
 .funParagraph {
     color: green;
 }
 
-.image-grid {
-    margin: auto;
-    --gap: 16px;
-    --num-cols: 2;
-    --row-height: 300px;
-  
-    box-sizing: border-box;
-    padding: var(--gap);
-  
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    gap: var(--gap);
-  }
+.photo-description {
+    text-align: center
+}
 
 /* Elements */
 body {

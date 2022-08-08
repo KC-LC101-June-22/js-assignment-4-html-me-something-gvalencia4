@@ -28,7 +28,7 @@
 
 .image-gallery>li {
     flex-basis: 300px;
-    /*width: 150px;*/
+    /*width: 300px;*/
     position: relative;
     cursor: pointer;
     padding: 0px;
@@ -36,8 +36,8 @@
 
 /* .image-gallery::after {
     content: "";
-    flex-basis: 150px; 
-  } /*width: 150px;*/
+    flex-basis: 300px; 
+  } /*width: 300px;*/
 
 .image-gallery li img {
     object-fit: cover;
@@ -77,8 +77,18 @@
 }
 
 .article-description {
-    padding-left: 100px;
-    padding-right: 100px;
+    display: flex;
+    background: rgba(224, 0, 0, 0.502);
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px 50px
+}
+
+.article-description p {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .funParagraph {

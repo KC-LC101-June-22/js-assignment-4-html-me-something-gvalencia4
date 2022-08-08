@@ -1,1 +1,120 @@
 /* Write your CSS here! */
+
+/* Classes */
+
+
+.container {
+    padding: 0px;
+}
+
+.heading-text {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.heading-text span {
+    font-weight: 100;
+}
+
+/* Responsive image gallery rules begin*/
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-gallery>li {
+    flex-basis: 300px;
+    /*width: 300px;*/
+    position: relative;
+    cursor: pointer;
+    padding: 0px;
+}
+
+/* .image-gallery::after {
+    content: "";
+    flex-basis: 300px; 
+  } /*width: 300px;*/
+
+.image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: #fff;
+    border-radius: 5px;
+    /* end overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hover */
+.image-gallery li:hover .overlay {
+    transform: scale(1);
+}
+
+.flex-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.article-description {
+    display: flex;
+    background: rgba(224, 0, 0, 0.502);
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px 50px
+}
+
+.article-description p {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.photo-description {
+    text-align: center
+}
+
+/* Elements */
+body {
+    margin: 60px;
+    display: block;
+}
+
+article {
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+/* IDs */
+#mainHeading {
+    color: red;
+}
